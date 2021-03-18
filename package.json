@@ -1,0 +1,46 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-native-picker/picker": "^1.9.12",
+    "@react-navigation/native": "^5.9.3",
+    "axios": "^0.21.1",
+    "expo": "^40.0.0",
+    "expo-barcode-scanner": "~9.1.0",
+    "expo-location": "~10.0.0",
+    "lottie-react-native": "^2.5.11",
+    "moment": "^2.24.0",
+    "permissions": "^0.1.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+    "react-native-background-timer": "^2.2.0",
+    "react-native-dropdown-picker": "^4.0.2",
+    "react-native-elements": "^1.2.7",
+    "react-native-gesture-handler": "~1.8.0",
+    "react-native-maps": "0.27.1",
+    "react-native-reanimated": "^1.13.2",
+    "react-native-responsive-dimensions": "^3.1.1",
+    "react-native-safe-area-context": "3.1.9",
+    "react-native-safe-area-view": "^1.0.0",
+    "react-native-svg": "12.1.0",
+    "react-native-web": "^0.15.0",
+    "react-navigation": "^4.0.10",
+    "react-navigation-stack": "^2.0.16",
+    "react-navigation-tabs": "^2.7.0",
+    "rn-placeholder": "^3.0.3",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0",
+    "babel-preset-expo": "8.3.0"
+  },
+  "private": true
+}
