@@ -9,3 +9,8 @@ npm install
 ```
 npm run start
 ```
+
+### Publis APK
+```
+expo build:android
+```
