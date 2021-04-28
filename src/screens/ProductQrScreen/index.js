@@ -23,11 +23,13 @@ const ProductQrScreen = ({ navigation }) => {
   };
 
   const handleBarCodeScanned = ({ type, data }) => {
+    console.log('asdsa')
     setScanned(true);
 
     try {
       var path = url.parse(data);
-      var productId = path.pathname.substring(1);
+      // var productId = path.pathname.substring(1);
+      var productId = path.hash.substring(2);
       if (productId.substring(0, 2) == "0x") {
         navigateToProductTrail(productId);
       }
