@@ -104,6 +104,7 @@ const signinPatient = (dispatch) => {
       }
       else
       {
+        console.debug(response);
         dispatch({
           type: "add_error",
           payload: "Something went wrong with sign in",

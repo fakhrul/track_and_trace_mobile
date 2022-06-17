@@ -2,7 +2,7 @@ import axios from 'axios';
 import { AsyncStorage} from 'react-native';
 
 const instance = axios.create({
-    baseURL: 'http://103.117.20.225:8001/api/eth/'
+    baseURL: 'https://api-smartkelulut.sirimsense.com/api/eth/'
 });
 
 instance.interceptors.request.use(

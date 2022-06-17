@@ -3,7 +3,6 @@
     "name": "tracks-app",
     "slug": "tracks-app",
     "privacy": "public",
-    "sdkVersion": "40.0.0",
     "platforms": [
       "ios",
       "android",

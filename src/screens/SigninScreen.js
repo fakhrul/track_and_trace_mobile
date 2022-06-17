@@ -8,8 +8,8 @@ import { colors } from "../utils";
 const SigninScreen = ({ navigation }) => {
   const { state: { errorMessage }, signinPatient, clearErrorMessage } = useContext(AuthContext);
   const [form, setForm] = new useState({
-    email: "fakhrulazran@gmail.com2",
-    password: "qwe123",
+    email: "",
+    password: "",
   });
 
   const sendData = () => {
@@ -57,6 +57,7 @@ const SigninScreen = ({ navigation }) => {
       }
       <View style={{ height: 50 }}></View>
       <ActionButtonCustom title="Login" onPress={sendData}></ActionButtonCustom>
+      <Text style={styles.subTitle}>(v3)</Text>
     </SafeAreaView >
   );
 };

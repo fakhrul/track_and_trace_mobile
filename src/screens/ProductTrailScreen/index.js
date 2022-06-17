@@ -5,9 +5,7 @@ import {
     NavigationEvents,
 } from "react-navigation";
 import { Context as TrackContext } from "../../context/TrackContext";
-import { ActionButtonCustom } from "../../components";
 import ProductTrailPlaceHolder from "./components/ProductTrailPlaceHolder";
-import { ScrollView } from "react-native-gesture-handler";
 import { colors } from "../../utils";
 
 var moment = require("moment");
