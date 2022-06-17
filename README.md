@@ -4,6 +4,10 @@
 ```
 npm install
 ```
+or
+```
+npm install --force
+```
 
 2. start expo
 ```
